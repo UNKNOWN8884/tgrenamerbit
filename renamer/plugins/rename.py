@@ -72,7 +72,7 @@ async def media(c, m):
         file_location = await m.download(
                             file_name=download_location,
                             progress=progress_bar,
-                            progress_args=("Downloading:", start_time, send_message)
+                            progress_args=("Dᴏᴡɴʟᴏᴅɪɴɢ Tᴏ Sᴇʀᴠᴇʀ⚙️:", start_time, send_message)
                         )
     except Exception as e:
         logger.error(e)
@@ -148,7 +148,7 @@ async def media(c, m):
                 caption=caption,
                 thumb=thumbnail,
                 progress=progress_bar,
-                progress_args=("Uploading:", start_time, send_message)
+                progress_args=("Uᴘʟᴏᴀᴅɪɴɢ🧶:", start_time, send_message)
             )
         except FloodWait as e:
             await asyncio.sleep(e.x)
@@ -166,4 +166,4 @@ async def media(c, m):
 
 async def notify(m, time_gap):
     await asyncio.sleep(time_gap)
-    await m.reply_text("__You can use me Now__")
+    await m.reply_text("__Yᴏᴜ Cᴀɴ Usᴇ Mᴇ Nᴏᴡ Dᴜᴅᴇ🥳__")
