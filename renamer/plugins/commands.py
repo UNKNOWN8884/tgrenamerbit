@@ -43,10 +43,6 @@ async def start(c, m, cb=False):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
     button = [[
         InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} Dᴇᴠʟᴏᴘᴇʀ🧑‍💻', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='Aʙᴏᴜᴛ 🥰')
-        ],[
-        InlineKeyboardButton(f'{INFORMATION} Help', callback_data="Hᴇʟᴘ❔"),
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="Cʟᴏsᴇ❌")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
