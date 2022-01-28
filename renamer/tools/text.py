@@ -14,49 +14,50 @@ class TEXT:
 
     ABOUT = """**𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 :**
 
-** My Name:** {bot_name}
+** <b>Mʏ Nᴀᴍᴇ😻</b>:** {bot_name}
     
-** Language:** [Python 3](https://www.python.org/)
+** <b>Lᴀɴɢᴜᴀɢᴇ🗣️</b>:** [Python 3](https://www.python.org/)
 
-** FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
+** <b>Dᴇᴠᴇʟᴏᴘᴇʀ🧑‍💻</b>:** {bot_owner}
 
-** Developer:** {bot_owner}
-
-** Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
-
-** Group:** [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
-
-** Source Code:** [Press Me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)
+** <b>Gʀᴏᴜᴘ🥳</b>:** [Mᴋ Bᴏᴛs](https://t.me/mksupport1)
 """
 
     HELP_USER = """**Follow Below Steps:**
    
-☞︎︎︎ Use /mode command to change upload mode.
-☞︎︎︎ Send a photo to set as permanent thumbnail.
-☞︎︎︎ Now send me the Telegram file you want to rename.
-☞︎︎︎ Send the new name when bot ask.
-
+ 
+🔥Usᴇ /mode ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ᴜᴘʟᴏᴀᴅ ᴍᴏᴅᴇ.
+☞︎︎︎ Sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ sᴇᴛ ᴀs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+☞︎︎︎ Nᴏᴡ sᴇɴᴅ ᴍᴇ ᴛʜᴇ Tᴇʟᴇɢʀᴀᴍ ғɪʟᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇɴᴀᴍᴇ.
+☞︎︎︎ Sᴇɴᴅ ᴛʜᴇ ɴᴇᴡ ɴᴀᴍᴇ ᴡʜᴇɴ ʙᴏᴛ ᴀsᴋ.
 For source code check about
 """
 
-    START_TEXT = """Hi {user_mention},
+    START_TEXT = """Hɪ Dᴜᴅᴇ😻 {user_mention},
 
-I am a telegram renamer with permanent thumbnail.
 
-𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
+ɪ ᴀᴍ ʀᴇɴᴀᴍᴇʀ ᴍᴋ
 
-**Maintained By:** {bot_owner}
+😻 ɪ ᴄᴀɴ ʀᴇɴᴀᴍᴇʀ ʏᴏᴜʀ ғɪʟᴇ ᴡɪᴛʜɪɴ ᴀ ᴍɪɴᴜᴛᴇs
+
+😻 ᴀɴᴅ ɪ ᴍᴀᴋᴇ sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ ᴀɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀʟsᴏ
+
+😻 ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ғɪʟᴇs ᴀɴᴅ ᴅᴏ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ
+
+😻 ᴄʟɪᴄᴋ ᴍᴇ /help ᴍᴏʀᴇ ɪɴғᴏ.
+
+**Mʏ Oᴡɴᴇʀ Is:** {bot_owner}
 """
 
 
-    DONATE_USER = """**__Thanks for showing interest in donation.__**
+    DONATE_USER = """**__ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ 💖.__**
  
-Donate us to keep our services continously alive
-You can send any amount 
-of 20rs, 30rs, 50rs, 70rs, 100rs, 200rs
+ᴅᴏɴᴀᴛᴇ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ᴄᴏɴᴛɪɴᴏᴜsʟʏ ᴀʟɪᴠᴇ
+ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴀɴʏ ᴀᴍᴏᴜɴᴛ 
+ᴏғ 10ʀs, 30ʀs, 50ʀs, 70ʀs, 100ʀs, 200ʀs
  
-__--Payment Methods:--__
+__--ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs:--__
  
-GooglePay / Paytm / PhonPay / paypal / Net Banking
+ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ᴘᴀʏᴘᴀʟ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ
  
-**For Donate:** message me @MaxxRiderz"""
+**ғᴏʀ ᴅᴏɴᴀᴛᴇ:** ᴍᴇssᴀɢᴇ ᴍᴇ @CRACKERON"""
