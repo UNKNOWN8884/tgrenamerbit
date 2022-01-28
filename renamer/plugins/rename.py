@@ -130,7 +130,7 @@ async def media(c, m):
                 caption=caption,
                 thumb=thumbnail,
                 progress=progress_bar,
-                progress_args=("Uploading:", start_time, send_message)
+                progress_args=("Uᴘʟᴏᴀᴅɪɴɢ🧶:", start_time, send_message)
             )
         except FloodWait as e:
             await asyncio.sleep(e.x)
@@ -152,7 +152,7 @@ async def media(c, m):
             )
         except FloodWait as e:
             await asyncio.sleep(e.x)
-            logger.warning(f"Got FloodWait for {e.x} Seconds")
+            logger.warning(f"Sᴏʀʀʏ Dᴜᴅᴇ Gᴏᴛ Fʟᴏᴏᴅ Vɪʀᴜs Fᴏʀ {e.x} SᴇᴄᴏɴDs🤦")
         except Exception as e:
             logger.error(e)
 
