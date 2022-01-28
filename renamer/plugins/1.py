@@ -27,17 +27,17 @@ async def force_sub(c, m):
                 return await m.reply_text(f"Make me admin in @{Config.FORCE_SUB}")
 
         except UsernameNotOccupied:
-            logger.warning("The forcesub username was Incorrect. Please give the correct username.")
+            logger.warning("Tʜᴇ Fᴏʀᴄᴇsᴜʙ  Usᴇʀɴᴀᴍᴇ Wᴀs Iɴᴄᴏʀʀᴇᴄᴛ Gɪᴠᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Iɴғᴏʀᴍᴀᴛɪᴏɴ.")
             if m.from_user.id in Config.AUTH_USERS:
-                return await m.reply_text("The forcesub username was Incorrect. Please give the correct username.")
+                return await m.reply_text("Tʜᴇ ғᴏʀᴄᴇsᴜʙ ᴜsᴇʀɴᴀᴍᴇ ᴡᴀs Iɴᴄᴏʀʀᴇᴄᴛ. Pʟᴇᴀsᴇ ɢɪᴠᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴜsᴇʀɴᴀᴍᴇ Mᴅ.")
 
         except Exception as e:
             if "belongs to a user" in str(e):
                 logger.warning("Forcesub username must be a channel username Not yours or any other users username")
                 if m.from_user.id in Config.AUTH_USERS:
-                    return await m.reply_text("Forcesub username must be a channel username Not yours or any other users username")
+                    return await m.reply_text("Fᴏʀᴄᴇsᴜʙ ᴜsᴇʀɴᴀᴍᴇ ᴍᴜsᴛ ʙᴇ ᴀ ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ Nᴏᴛ ʏᴏᴜʀs ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴜsᴇʀɴᴀᴍᴇ")
             logger.error(e)
-            return await m.reply_text("Some thing went wrong. Try again and if same issue occur contact [our group](https://t.me/Ns_Bot_supporters)", disable_web_page_preview=True, quote=True)
+            return await m.reply_text("Sᴏᴍᴇᴛʜɪɴɢ Wᴇɴᴛ Wʀᴏɴɢ🤔. Iғ Yᴏᴜ Fᴀᴄᴇ Aɢᴀɪɴ Tʜᴇ Pʀᴏᴍʙᴇʟᴍ Cᴏɴᴛᴀᴄᴛ Mʏ Mᴅ[Gʀᴏᴜᴘ](https://t.me/mksupport1)", disable_web_page_preview=True, quote=True)
 
     await m.continue_propagation()
 
