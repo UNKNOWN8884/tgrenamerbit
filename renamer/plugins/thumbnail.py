@@ -9,7 +9,7 @@ from pyrogram import Client as RenamerNs, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-################## Saving thumbnail 🖼 ##################
+################## Sᴀᴠɪɴɢ Tʜᴜᴍʙɴᴀɪʟ 🖼 ##################
 
 @RenamerNs.on_message(filters.photo & filters.incoming & filters.private)
 async def save_photo(c, m):
@@ -32,7 +32,7 @@ async def save_photo(c, m):
     )
 
 
-################## Deleting permanent thumbnail 🗑 ##################
+################## Dᴇʟᴇᴛɪɴɢ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ 🗑 ##################
 
 @RenamerNs.on_message(filters.command("deletethumbnail") & filters.incoming & filters.private)
 async def delete_thumbnail(c, m):
@@ -104,4 +104,4 @@ async def show_thumbnail(c, m):
          )
 
 
-################## THE END 🛑 ##################
+################## Tʜᴇ Eɴᴅ 🏳️ ##################
